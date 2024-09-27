@@ -2,6 +2,17 @@
 
 **PDF Text Finder** is a TypeScript-based tool that reads a PDF document and searches for a specific string (e.g., "281"). The script uses the `pdf-parse` library to extract text from PDF files and then performs a search for the specified text.
 
+## Table of Contents
+
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Example Output](#example-output)
+- [License](#license)
+
 ## Features
 
 - Extracts text from PDF files.
@@ -63,12 +74,14 @@ Found 3 occurrences of "searchtext"
 Total occurrences of "searchtext": `result of number you will get`
 ```
 
+## Acknowledgements
 
-.
-├── LICENSE
-├── README.md
-├── package-lock.json
-├── package.json
-├── pdf.js
-├── pdf.ts
-└── tsconfig.json
+- **pdf-parse**: A library for extracting text from PDF files. [GitHub Repository](https://github.com/modesty/pdf-parse)
+- **TypeScript**: A superset of JavaScript that compiles to plain JavaScript, providing type safety and modern features. [TypeScript](https://www.typescriptlang.org/)
+- **Node.js**: A JavaScript runtime built on Chrome's V8 JavaScript engine. [Node.js](https://nodejs.org/)
+
+
+
+
+## **License**
+This project is licensed under the MIT License. [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
